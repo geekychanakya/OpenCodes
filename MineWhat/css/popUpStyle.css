@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+/*--- Main Body CSS ---*/
+body
+{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    padding: 0;
+    border: 1px solid #ccc;
+    height: 750px; /*---- Not Mandatory -----*/
+}
+
+.header{
+    background-color: #cccccc;
+    padding: 2.5% 0 2.5% 2.5%;
+}
+.header label{
+    font-size: 140%;    
+}
+.bodyContainer label{
+    color: #8c8c8c;
+    font-size: 140%;
+    padding-top: 12%;
+}
+/*--- Main Body CSS Ends---*/
+
+
+/*--- Pop up box CSS ---*/
+.popup-box {
+    background-color: #ffffff;
+    border: 1px solid #b0b0b0;
+    bottom: 20px;
+    display: none;
+    box-shadow: 1px 1px 7px #9f9f9f;
+    height: 290px;
+    position: fixed;
+    right: 110px;
+    width: 360px;
+    font-family: 'Open Sans', sans-serif;
+}
+.popup-box .popup-head {
+    background-color: #fff;
+    clear: both;
+    color: #7b7b7b;
+    display: inline-table;
+    padding: 0;
+    width: 100%;
+}
+.popup-box .popup-head .popup-head-right {
+    margin: 2px 7px 0;
+}
+.popup-box-show {
+    display: block !important;
+    margin-left: 120%;
+}
+.popup-header-button {
+    background: transparent none repeat scroll 0 0;
+    border: none;
+    font-size: 22px;
+}
+
+
+.popup-box .popup-body{
+    margin-top: -12px;
+}
+.popup-box .popup-body .products{
+    border: 1px solid #cccccc;
+    height: 200px;
+    width: 40%;
+    background-color: #ededed;
+    margin-left: 30px;
+}
+.popup-box .popup-body label{
+    font-size: 90%;
+}
+.popup-box .popup-body p{
+    font-size: 110%;
+}
+.popup-box .popup-body span{
+    font-size: 80%;
+}
+.popup-box .popup-body img {
+    width: 70px;
+    height: 100px;
+    padding: 0;
+    cursor: pointer;
+}
+/*--- Pop up box CSS Ends ---*/
+
+
+/*--- Common CSS ---*/
+.zero-padding-left-right{
+    padding: 0;
+}
+.marginLeft_-4px{
+    margin-left: -4px;
+}
+.marginTop_4px{
+   margin-top: 4px;
+}
+.marginTop_14px{
+   margin-top: 14px;
+}
+.marginLeft_10px{
+    margin-left: 10px !important;
+}
+.borderTop_2px{
+    border-top: 2px solid #cccccc;
+}
+/*--- Common CSS Ends ---*/
