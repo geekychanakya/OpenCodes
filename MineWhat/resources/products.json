@@ -1,0 +1,134 @@
+[
+    {
+        "keyId": 0,
+        "keyName": "Coloured Dresses",
+        "title1":"Cotton Coloured Dress",
+        "title2":"Cotton Dress",
+        "products":[
+            {
+              "index": 5,
+              "name": "Riggs Roach",
+              "altTag": "yourStoreDressSix",
+              "imageSrc": "resources/image/g3.jpg"
+            },
+            {
+              "index": 12,
+              "name": "Mccormick Fuller",
+              "altTag": "yourStoreDressThirteen",
+              "imageSrc": "resources/image/p1.jpg"
+            },
+            {
+              "index": 14,
+              "name": "Evangeline Fulton",
+              "altTag": "yourStoreDressFifteen",
+              "imageSrc": "resources/image/r2.jpg"
+            },
+            {
+              "index": 15,
+              "name": "Summer Combs",
+              "altTag": "yourStoreDressSixteen",
+              "imageSrc": "resources/image/r3.jpg"
+            }
+        ]
+    },
+    
+    {
+        "keyId": 1,
+        "keyName": "Funky Wear",
+        "title1":"Rave up your style",
+        "title2":"Get elegant style",
+        "products":[
+            {
+              "index": 3,
+              "name": "Janet Burns",
+              "altTag": "yourStoreDressFour",
+              "imageSrc": "resources/image/g1.jpg"
+            },
+            {
+              "index": 4,
+              "name": "Dianne Randall",
+              "altTag": "yourStoreDressFive",
+              "imageSrc": "resources/image/g2.jpg"
+            },            
+            {
+              "index": 5,
+              "name": "Riggs Roach",
+              "altTag": "yourStoreDressSix",
+              "imageSrc": "resources/image/g3.jpg"
+            },
+            {
+              "index": 13,
+              "name": "Jeannine Garrett",
+              "altTag": "yourStoreDressFourteen",
+              "imageSrc": "resources/image/r1.jpg"
+            }
+        ]
+    },
+    
+    {
+        "keyId": 2,
+        "keyName": "Luxury Couch",
+        "title1":"Luxury Lifestyle",
+        "title2":"Luxury Living",
+        "products":[
+            {
+              "index": 6,
+              "name": "Ellison Baker",
+              "altTag": "yourStoreDressSeven",
+              "imageSrc": "resources/image/h1.jpg"
+            },
+            {
+              "index": 7,
+              "name": "Miranda Vincent",
+              "altTag": "yourStoreDressEight",
+              "imageSrc": "resources/image/h2.jpg"
+            },
+            {
+              "index": 8,
+              "name": "Frank Barnes",
+              "altTag": "yourStoreDressNine",
+              "imageSrc": "resources/image/h3.jpg"
+            },
+            {
+              "index": 6,
+              "name": "Ellison Baker",
+              "altTag": "yourStoreDressSeven",
+              "imageSrc": "resources/image/h1.jpg"
+            }
+        ]
+    },
+    
+    {
+        "keyId": 3,
+        "keyName": "Beauty Product",
+        "title1":"Tone your body",
+        "title2":"Change body look",
+        "products":[
+            {
+              "index": 9,
+              "name": "Walters Williams",
+              "altTag": "yourStoreDressTen",
+              "imageSrc": "resources/image/n1.jpg"
+            },
+            {
+              "index": 10,
+              "name": "Caldwell Parsons",
+              "altTag": "yourStoreDressEleven",
+              "imageSrc": "resources/image/n2.jpg"
+            },
+            {
+              "index": 11,
+              "name": "Lourdes Foreman",
+              "altTag": "yourStoreDressTwelve",
+              "imageSrc": "resources/image/n3.jpg"
+            },
+            {
+              "index": 0,
+              "name": "Jennie Warren",
+              "altTag": "yourStoreDressOne",
+              "imageSrc": "resources/image/b1.jpg"
+            }
+        ]
+    }
+  
+]

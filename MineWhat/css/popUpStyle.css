@@ -27,18 +27,173 @@ body
 }
 /*--- Main Body CSS Ends---*/
 
+/*--- Media Query for different resolutions---*/
+@media screen and (min-width: 1200px) {
+    .popup-box {
+        height: 290px;
+        width: 360px;
+    }
+    .popup-box-show {
+        display: block !important;
+        margin-left: 120%;
+    }
+    .popup-box .popup-body{
+        margin-top: -3%;
+    }
+    .popup-box .popup-body .popup-section {
+        width: 71px;
+        overflow: hidden;
+        margin-left: -1%;
+    }
+    .popup-box .popup-body img.tall {
+        max-height: 100px;
+        max-width: 70px;
+        width: auto;
+        margin-left: 0.5%;
+    }
+    .popup-box .popup-body img.wide {
+        max-height: 100px;    
+        margin: 0 0 0 -80%;
+    }
+    .popup-box .popup-body p{
+        font-size: 110%;
+    }
+}
+@media (max-width: 1201px) and (min-width: 992px) {
+    .popup-box {
+        height: 280px;
+        width: 345px;
+    }
+    .popup-box-show {
+        display: block !important;
+        margin-left: 115%;
+    }
+    .popup-box .popup-body{
+        margin-top: -4%;
+    }
+    .popup-box .popup-body .popup-section {
+        width: 68px;
+        overflow: hidden;
+        margin-left: -2%;
+    }
+    .popup-box .popup-body img.tall {
+        max-height: 99px;
+        max-width: 67px;
+        width: auto;
+        margin-left: 0.5%;
+    }
+    .popup-box .popup-body img.wide {
+        max-height: 99px;    
+        margin: 0 0 0 -79%;
+    }
+    .popup-box .popup-body p{
+        font-size: 108%;
+    }
+}
+@media (max-width: 993px) and (min-width: 675px) {
+    .popup-box {
+        height: 260px;
+        width: 320px;
+    }
+    .popup-box-show {
+        display: block !important;
+        margin-left: 105%;
+    }
+    .popup-box .popup-body{
+        margin-top: -6%;
+    }
+    .popup-box .popup-body .popup-section {
+        width: 64px;
+        overflow: hidden;
+        margin-left: -2%;
+    }
+    .popup-box .popup-body img.tall {
+        max-height: 90px;
+        max-width: 62px;
+        width: auto;
+        margin-left: 0.5%;
+    }
+    .popup-box .popup-body img.wide {
+        max-height: 90px;    
+        margin: 0 0 0 -78%;
+    }
+    .popup-box .popup-body p{
+        font-size: 105%;
+    }
+}
+@media (max-width: 674px) and (min-width: 550px) {
+    .popup-box {
+        height: 265px;
+        width: 285px;
+    }
+    .popup-box-show {
+        display: block !important;
+        margin-left: 102%;
+    }
+    .popup-box .popup-body{
+        margin-top: -9%;
+    }
+    .popup-box .popup-body .popup-section {
+        width: 58px;
+        overflow: hidden;
+        margin-left: -3%;
+    }
+    .popup-box .popup-body img.tall {
+        max-height: 78px;
+        max-width: 54px;
+        width: auto;
+        margin-left: 0.5%;
+    }
+    .popup-box .popup-body img.wide {
+        max-height: 78px;    
+        margin: 0 0 0 -66%;
+    }
+    .popup-box .popup-body p{
+        font-size: 105%;
+    }
+}
+@media (max-width: 549px) and (min-width: 430px) {
+    .popup-box {
+        height: 265px;
+        width: 285px;
+    }
+    .popup-box-show {
+        display: block !important;
+        margin-left: 97%;
+    }
+    .popup-box .popup-body{
+        margin-top: -9%;
+    }
+    .popup-box .popup-body .popup-section {
+        width: 58px;
+        overflow: hidden;
+        margin-left: -3%;
+    }
+    .popup-box .popup-body img.tall {
+        max-height: 78px;
+        max-width: 54px;
+        width: auto;
+        margin-left: 0.5%;
+    }
+    .popup-box .popup-body img.wide {
+        max-height: 78px;    
+        margin: 0 0 0 -66%;
+    }
+    .popup-box .popup-body p{
+        font-size: 105%;
+    }
+}
+/*--- /Media Query for different resolutions---*/
 
 /*--- Pop up box CSS ---*/
 .popup-box {
     background-color: #ffffff;
     border: 1px solid #b0b0b0;
-    bottom: 20px;
+    bottom: 3%;
     display: none;
     box-shadow: 1px 1px 7px #9f9f9f;
-    height: 290px;
     position: fixed;
     right: 110px;
-    width: 360px;
     font-family: 'Open Sans', sans-serif;
 }
 .popup-box .popup-head {
@@ -52,41 +207,26 @@ body
 .popup-box .popup-head .popup-head-right {
     margin: 2px 7px 0;
 }
-.popup-box-show {
-    display: block !important;
-    margin-left: 120%;
-}
+
 .popup-header-button {
     background: transparent none repeat scroll 0 0;
     border: none;
-    font-size: 22px;
+    font-size: 115%;
 }
 
-
-.popup-box .popup-body{
-    margin-top: -12px;
-}
 .popup-box .popup-body .products{
     border: 1px solid #cccccc;
     height: 200px;
     width: 40%;
     background-color: #ededed;
-    margin-left: 30px;
+    margin-left: 9%;
 }
 .popup-box .popup-body label{
     font-size: 90%;
 }
-.popup-box .popup-body p{
-    font-size: 110%;
-}
+
 .popup-box .popup-body span{
     font-size: 80%;
-}
-.popup-box .popup-body img {
-    width: 70px;
-    height: 100px;
-    padding: 0;
-    cursor: pointer;
 }
 /*--- Pop up box CSS Ends ---*/
 
@@ -101,13 +241,16 @@ body
 .marginTop_4px{
    margin-top: 4px;
 }
-.marginTop_14px{
-   margin-top: 14px;
+.marginTop_7pc{
+   margin-top: 7%;
 }
-.marginLeft_10px{
-    margin-left: 10px !important;
+.marginLeft_2pc{
+    margin-left: 2% !important;
 }
 .borderTop_2px{
     border-top: 2px solid #cccccc;
+}
+.background_color{
+    background: white;
 }
 /*--- Common CSS Ends ---*/
